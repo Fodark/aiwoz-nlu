@@ -1,0 +1,10 @@
+[requires]
+python_version = "2.7.5"
+
+[packages]
+rasa-nlu = "*"
+scikit-learn = "*"
+spacy = "*"
+scipy = "*" 
+sklearn = "*"
+sklearn_crfsuite = "*"
