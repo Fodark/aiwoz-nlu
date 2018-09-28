@@ -17,6 +17,8 @@
 - It was back when I was still in [school](school_level), around the year [1988](date)
 - It was during [second grade](school_level), around [2000](date)
 - I went to school in [Trento](place)
+- I went to school in [London](place)
+- went to school in [Paris](place)
 - I did [primary school](school_level) in [Rome](place)
 - It was in [fifth grade](school_level), while I was attending school in [Milan](Place)
 <!-- People -->

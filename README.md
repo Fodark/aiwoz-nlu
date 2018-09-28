@@ -15,14 +15,25 @@ There is a script for -nix-based systems that simplifies this task. Simply run
 ```shell
 $ ./train.sh
 ```
-in our terminal, and the new trained model will be generated in `projects/current`. 
+in our terminal, and the new trained models will be generated in `projects`. 
+
+The nlu engine is devided in groups of intents that refer to different aspects of the user response. 
+Currently we support two aspects, which are implemented as "projects": 
+
+- *topics*: topic detection and entity extraction
+- *empathy*: classifies the sentiment and emotion depicted in the response
+
+In addition, basic smalltalk intents ported from  the [botframework-smalltalk](https://github.com/alyssaong1/botframework-smalltalk/blob/master/smalltalkkb.tsv) are provided in the *smalltalk* project.
+
 
 ## Trying out the model
 You can test the NLU model by running:
 
 ```shell
-$ python aiwoz.py "I don't want to talk about it"
+$ python aiwoz-cmd.py "I don't want to talk about it" projects/topics/model_XXXXX
 ```
+
+`model_XXXXX` should refers to the specific model to be tested.
 
 The script will respond with a json output containing the entities and ranking of intents.
 

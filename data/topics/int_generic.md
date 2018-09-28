@@ -7,6 +7,10 @@
 - That is [Vatican City](location)
 - We were in [Rome](location)
 - I was in [Paris](location)
+- I am from [Italy](location)
+- She is from [Italy](location)
+- He is from [Italy](location)
+- We are from [Italy](location)
 
 ## intent:generic_when
 - It was in [1988](date)
@@ -20,6 +24,50 @@
 - That is my [mother](relation_family)
 - It is my [father](relation_family)
 - That would be my [mother](relation_family)
+- His name is [Marcos](name)
+- Her name is [Julia](name)
+
+## intent:generic_yes
+- Yes
+- Yes, that is correct
+- Yeah
+- Yes, it is
+- That is correct
+- You are correct
+- That's right
+- It is
+- She is
+- We are
+- We are indeed
+- They are
+- Right
+- Correct
+- Indeed
+- Of course
+- That sounds good
+- Sure
+
+## intent:generic_no
+- No
+- Nope
+- No, that's not the case
+- No, that's not correct
+- No, that's incorrect
+- It is not
+- They are not
+- They're not
+- We're not
+- She's not
+- You are wrong
+- Never
+- No way
+- Not really
+
+## regex:yes
+- yes[^\s]*
+
+## regex:no
+- no[^\s]*
 
 ## lookup:relation_family
 - parent 
