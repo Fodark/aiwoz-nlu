@@ -57,6 +57,8 @@ CHILDREN & GRANDCHILDREN
 <!-- How many children do you have? When were they born? How did you decide what to name each? -->
 - We [don't have](num_offspring:0) any [grandchildren](offspring)
 - I [don't have](num_offspring:0) any [grandchildren](offspring)
+- I [don't have](num_offspring:0) [children](offspring)
+- [No](num_offspring:0) [children](offspring)
 - I have [2](num_offpring) [children](offspring)
 - We had [3](num_offpring) [grandchildren](offspring)
 - We had [3](num_offpring) [grandchildren](offspring)
@@ -76,6 +78,7 @@ SIBLINGS
 <!--May I ask: do you have any brothers or sisters? -->
 - No, I don't. I'm the [only child](num_siblings:0)
 - No, I'm the [only child](num_siblings:0)
+- [No](num_siblings:0) [siblings](siblings)
 - I [don't have](num_siblings:1) any [siblings](siblings)
 - Yes, [one](num_siblings:1) [siblings](siblings)
 - I have [a](num_siblings:1) [siblings](siblings)
